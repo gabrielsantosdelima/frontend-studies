@@ -1,0 +1,13 @@
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-greeting',
+    standalone: true,
+    imports: [],
+    templateUrl: './greeting.html',
+    styleUrl: './greeting.scss'
+})
+
+export class Greeting{
+    name = "Gabriel";
+}
