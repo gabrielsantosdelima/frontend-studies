@@ -1,7 +1,7 @@
 import Greeting from './components/Greeting';
 
 function App() {
-  return <Greeting />;
+  return <Greeting name = "Gabriel"/>;
 }
 
 export default App
