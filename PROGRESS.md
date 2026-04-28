@@ -4,3 +4,5 @@
 ------------------------------------------------------------------------------------------------------------------------------------------
 3 React: Typed Props - Props in React = function parameters. TypeScript forces me to define the contract.
 
+4 Angular: Signal-based input() - Angular 21 uses input() instead of the old @Input(). It's a signal, I read it by calling it as a function.
+
