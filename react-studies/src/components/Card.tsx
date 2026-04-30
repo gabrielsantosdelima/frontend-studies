@@ -1,3 +1,5 @@
+import type { ReactNode } from "react";
+
     export function Card (props: CardProps) {
     return (
         <div>
@@ -9,5 +11,5 @@
 
 interface CardProps {
     title: string;
-    children: React.ReactNode;
+    children: ReactNode;
 }

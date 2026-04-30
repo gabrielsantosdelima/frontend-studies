@@ -10,3 +10,6 @@
 5 React: children and composition -> children is React magic prop. Anything between the tags goes into it. Composition > inheritance.
 6 Angular: How each library passes data parent>child -> React passes children as a prop. Angular projects them via <ng-content>. Same concept, different syntax.
 
+## Step 4
+7 React: useState -> useState returns [value, setter]. React re-renders when the setter is called. I never mutate directly.
+
