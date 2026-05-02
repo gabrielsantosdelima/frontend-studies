@@ -14,3 +14,5 @@
 7 React: useState -> useState returns [value, setter]. React re-renders when the setter is called. I never mutate directly.
 8 Angular: Signals -> Signal is a granular reactivity. More explicit than useState, I know exactly when I'm reading (calling as function).
 
+## Step 5
+9 React: Handlers -> React wraps native events in SyntheticEvent so my handlers behave the same across browsers, e.target.value is just the typed input's current text.

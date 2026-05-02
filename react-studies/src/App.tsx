@@ -1,6 +1,7 @@
 import { Greeting } from './components/Greeting';
 import { Card } from './components/Card';
 import { Counter } from './components/Counter';
+import { TextMirror } from './components/TextMirror';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </Card>
 
       <Counter/>
+      <TextMirror/>
     </>
   )
 }
