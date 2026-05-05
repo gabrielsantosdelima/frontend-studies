@@ -1,0 +1,6 @@
+<input [(ngModel)]="mirroredText" placeholder="Start typing..."/>
+
+<div>
+    <div *ngIf="mirroredText">You tiped: {{mirroredText}}</div>
+    <div *ngIf="!mirroredText">Nothing yet</div>
+</div> 
