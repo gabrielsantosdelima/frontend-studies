@@ -17,3 +17,6 @@
 ## Step 5
 9 React: Handlers -> React wraps native events in SyntheticEvent so my handlers behave the same across browsers, e.target.value is just the typed input's current text.
 10 Angular: Event binding -> Angular has explicit syntax: () for events, [] for properties, [()] for two-way.
+
+## Step 6
+11 React: Derived state -> Don't store what you can compute. Classic bug: storing what can be derived, state = bare minimum. Compute the rest.

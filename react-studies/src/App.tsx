@@ -2,6 +2,7 @@ import { Greeting } from './components/Greeting';
 import { Card } from './components/Card';
 import { Counter } from './components/Counter';
 import { TextMirror } from './components/TextMirror';
+import { SumList } from './components/SumList';
 
 function App() {
   return (
@@ -19,7 +20,10 @@ function App() {
       </Card>
 
       <Counter/>
+
       <TextMirror/>
+
+      <SumList/>
     </>
   )
 }
