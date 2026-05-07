@@ -25,3 +25,6 @@
 ## Step 7
 13 React: Rendering Lists -> List of 5 barbers, render as cards.<br/>
 14 Angular: @for -> The new Angular control flow is cleaner than *ngFor. track is the equivalent of React's key.<br/>
+
+## Step 8
+15 React: Conditionals -> &&, ternary, early return. <br/>
