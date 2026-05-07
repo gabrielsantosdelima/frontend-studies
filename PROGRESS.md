@@ -20,3 +20,4 @@
 
 ## Step 6
 11 React: Derived state -> Don't store what you can compute. Classic bug: storing what can be derived, state = bare minimum. Compute the rest.
+12 Angular: Same derived sum using computed() -> React re-renders the whole component. Angular Signals updates only what depends on the signal. 
