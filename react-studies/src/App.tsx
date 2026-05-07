@@ -3,6 +3,7 @@ import { Card } from './components/Card';
 import { Counter } from './components/Counter';
 import { TextMirror } from './components/TextMirror';
 import { SumList } from './components/SumList';
+import { RenderingList } from './components/RenderingList';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <TextMirror/>
 
       <SumList/>
+
+      <RenderingList/>
     </>
   )
 }
