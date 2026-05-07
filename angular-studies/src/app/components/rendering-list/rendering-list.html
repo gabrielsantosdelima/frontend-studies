@@ -1,0 +1,9 @@
+<h2>Barbers:</h2>
+<div>
+    @for(b of barbers(); track b.id){
+        <article>
+            <h3>{{b.name}}</h3>
+            <p>{{b.specialty}}</p>
+        </article>
+    }
+</div>
