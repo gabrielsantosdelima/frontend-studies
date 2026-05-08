@@ -28,3 +28,4 @@
 
 ## Step 8
 15 React: Conditionals -> &&, ternary, early return. <br/>
+16 Angular: Conditional control flow -> @if replaced *ngIf. Syntax reads more like a real language. @else if exists and is great. <br/>

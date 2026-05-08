@@ -1,9 +1,15 @@
 <h2>Barbers:</h2>
 <div>
     @for(b of barbers(); track b.id){
-        <article>
+        <article class="card">
             <h3>{{b.name}}</h3>
             <p>{{b.specialty}}</p>
+
+            @if(b.isAvailable){
+                <p class="status available">🟢 Available</p>
+            } @else {
+                <p class="status busy">🔴 Busy</p>
+            }
         </article>
     }
 </div>

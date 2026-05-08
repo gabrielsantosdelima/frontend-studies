@@ -24,7 +24,7 @@ function BarberCard( {barber} : BarberCardProps) {
     return (
         <article className={styles.card}>
             <h3> {barber.name} </h3>
-            <p>{barber.specialty}</p>
+            <p>{barber.specialty}   </p>
             <p className={`${styles.status} ${
                 barber.isAvailable ? styles.available : styles.busy
             }`}>
@@ -42,7 +42,7 @@ export function RenderingList() {
     return(
         <section>
             <h2>Barbers: </h2>
-            <div className={styles.container}>
+            <div>
                 {barbers.map((barber) =>
                     <BarberCard key={barber.id} barber={barber}/>
                 )}
