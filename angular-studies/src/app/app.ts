@@ -6,11 +6,12 @@ import { Counter } from './components/counter/counter';
 import { TextMirror } from './components/text-mirror/text-mirror';
 import { SumList } from './components/sum-list/sum-list';
 import { RenderingList } from './components/rendering-list/rendering-list';
+import { BarberForm } from './components/barber-form/barber-form';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Greeting, Card, Counter, TextMirror, SumList, RenderingList],
+  imports: [RouterOutlet, Greeting, Card, Counter, TextMirror, SumList, RenderingList, BarberForm],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

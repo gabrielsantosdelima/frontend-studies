@@ -1,0 +1,29 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div>
+        <label for="name">Name</label>
+        <input
+            id="name"
+            type="text"
+            formControlName="name"
+            placeholder="e.g. Gabriel Lima"
+        />
+        @if (form.controls.name.invalid && form.controls.name.touched) {
+            <span class="error">Name is required</span>
+        }
+    </div>
+
+    <div>
+        <label for="specialty">Specialty</label>
+        <input
+            id="specialty"
+            type="text"
+            formControlName="specialty"
+            placeholder="e.g. Classic Cuts"
+        />
+        @if (form.controls.specialty.invalid && form.controls.specialty.touched) {
+            <span class="error">Specialty is required</span>
+        }
+    </div>
+
+    <button type="submit">Add barber</button>
+</form>
