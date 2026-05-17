@@ -29,3 +29,6 @@
 ## Step 8
 15 React: Conditionals -> &&, ternary, early return. <br/>
 16 Angular: Conditional control flow -> @if replaced *ngIf. Syntax reads more like a real language. @else if exists and is great. <br/>
+
+## Step 9
+17 React: Controlled form -> Contrlled form = React is the source of truth. Each keystroke updates state.

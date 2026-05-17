@@ -4,6 +4,7 @@ import { Counter } from './components/Counter';
 import { TextMirror } from './components/TextMirror';
 import { SumList } from './components/SumList';
 import { RenderingList } from './components/RenderingList';
+import { BarberForm } from './components/BarberForm';
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
       <SumList/>
 
       <RenderingList/>
+
+      <BarberForm/>
     </>
   )
 }
